@@ -1,6 +1,6 @@
 import { Token } from '@uniswap/sdk-core'
+import { FeeAmount } from '@uniswap/v3-sdk'
 
-// import { FeeAmount } from '@uniswap/v3-sdk'
 import {
   CVP_TOKEN,
   DAI_TOKEN,
@@ -51,9 +51,10 @@ export const CurrentConfig: ExampleConfig = {
       '0xc625bece33ab06dd6e4656f044253b252fa2a6278242b3cef297899f7cc45816',
   },
   tokens: {
-    in: WETH_TOKEN,
-    amountIn: 0.1,
-    out: YNB_TOKEN,
-    poolFee: 10,
+    in: WETH_TOKEN, // input
+    amountIn: 0, // no use
+    out: YNB_TOKEN, // output
+    poolFee: FeeAmount.HIGH, // gas price
+    // poolFee: 10, // 10 gwei
   },
 }
