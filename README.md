@@ -2,7 +2,6 @@
 
 ## Overview
 
-uniswap v2 sniping bot
 - 원하는 토큰을 입력한다.
 - 그 토큰이 유동성 공급이 됐을때 구매한다.
 - eth amount와 가스비, 그리고 유동성 공급후 몇블록에 살 것인지 결정한다.
