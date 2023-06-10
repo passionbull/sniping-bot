@@ -54,7 +54,7 @@ export const CurrentConfig: ExampleConfig = {
     in: WETH_TOKEN, // input
     amountIn: 0, // no use
     out: YNB_TOKEN, // output
-    poolFee: FeeAmount.HIGH, // gas price
+    poolFee: FeeAmount.LOWEST, // gas price
     // poolFee: 10, // 10 gwei
   },
 }
